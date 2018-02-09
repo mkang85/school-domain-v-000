@@ -1,10 +1,12 @@
 # code here!
 class School
-  def initialize(name)
+attr_reader :name, :roster
+
+  def initialize(name, roster)
     @name = name
+    @roster = roster
   end
 
-roster = {}
 
   def add_student(string, num)
     roster[num] = []
