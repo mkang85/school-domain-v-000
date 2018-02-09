@@ -7,7 +7,6 @@ class School
 roster = {}
 
   def add_student(string, num)
-    roster
     roster[num] = []
     roster[num] << string
   end
