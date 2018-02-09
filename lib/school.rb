@@ -9,7 +9,7 @@ class School
 
 
   def add_student(string, num)
-    roster[num] = [] unless roster.each {|key, val| key ! = num}
+    roster[num] = [] unless roster.each {|key, val| key != num}
     roster[num] << string
   end
 
