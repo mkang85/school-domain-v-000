@@ -19,7 +19,7 @@ end
 
 def sort
   roster.map do |key, val|
-    val.sort
+    key: val.sort
   end
 end
 
