@@ -18,7 +18,9 @@ def grade(grade)
 end
 
 def sort
-  return roster.sort
+  roster.map do |key, val|
+    val.sort
+  end
 end
 
 end
