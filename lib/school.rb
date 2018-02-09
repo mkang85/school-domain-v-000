@@ -18,9 +18,11 @@ def grade(grade)
 end
 
 def sort
-  roster.collect do |key, val|
-    val.sort
+  sorted = {}
+  roster.each do |key, val|
+    sorted[key] = val.sort
   end
+  sorted
 end
 
 end
