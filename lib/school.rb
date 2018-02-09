@@ -17,7 +17,7 @@ def grade(grade)
   return roster[grade]
 end
 
-def sort(r)
+def sort
   return roster.sort
 end
 
