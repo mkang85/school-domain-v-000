@@ -4,12 +4,10 @@ class School
     @name = name
   end
 
-  def roster
-      roster = {}
-  end
+roster = {}
 
   def add_student(string, num)
-    roster 
+    roster
     roster[num] = []
     roster[num] << string
   end
